@@ -206,7 +206,7 @@ Question {
 }
 ```
 
-When you save the object it will check if there are any categories in the database bind to the question -
+When you save the object it will check if there are any categories in the database bound to the question -
 and it will detach all of them. Why? Because relation equal to `[]` or any items inside it will be considered
 like something was removed from it, there is no other way to check if an object was removed from entity or not.
  
